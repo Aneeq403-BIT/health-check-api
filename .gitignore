@@ -1,0 +1,19 @@
+#dependencies
+node_modules/
+
+#environment variables
+.env
+.env.local
+
+#log
+*.log
+num-debug.log
+
+#OS files
+.DS_Store
+Thumbs.db
+
+#IDE
+.vscode/
+.idea/
+
