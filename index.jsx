@@ -8,7 +8,7 @@ app.get('/health', (req, res) => { res.json({Status: 'OK', timestamp: new Date()
 
 //app.listen(PORT, () => { console.log(`Server is running on http://localhost:${PORT}`); });
 
-if (require.main == module) {
+if (require.main === module) {
     app.listen(PORT, () => {
         console.log(`Server is running on http://localhost:${PORT}`);
     });
