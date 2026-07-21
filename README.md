@@ -18,7 +18,7 @@ Built as part of the Remote Internship onboarding task at **Neurofive Solutions*
 
 ## Project Structure
 health-check-api/
-├── index.jsx          # Express app + /health endpoint
+├── index.js          # Express app + /health endpoint
 ├── package.json        # Project manifest + dependencies
 ├── package-lock.json
 ├── .gitignore
@@ -45,21 +45,21 @@ health-check-api/
 ```
 
 4. Visit:
-   - `http://localhost:3000/health` → health check JSON
+   - `https://health-check-api-v89w.vercel.app/health` → health check JSON
 
 ## Example Response
 
 ```json
 {
-  "status": "ok",
-  "timestamp": "2026-07-18T10:22:41.123Z"
+  "Status": "OK",
+  "timestamp": "2026-07-21T15:57:14.630Z"
 }
 ```
 
 ## Deployment
 
-Deployed on [Render](https://render.com) as a free-tier Web Service.
+Deployed on Vercel(vercel.com) as a free-tier Web Service.
 
 - Build command: `npm install`
 - Start command: `npm start`
-- Live URL: `<add your live URL here after deploying>`
+- Live URL: `https://health-check-api-v89w.vercel.app`
