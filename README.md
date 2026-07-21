@@ -18,12 +18,19 @@ Built as part of the Remote Internship onboarding task at **Neurofive Solutions*
 
 ## Project Structure
 health-check-api/
+
 ├── index.js          # Express app + /health endpoint
+
 ├── package.json        # Project manifest + dependencies
+
 ├── package-lock.json
+
 ├── .gitignore
+
 ├── api/
+
 ├   ├──index.js
+
 └── README.md
 
 ## Run Locally
